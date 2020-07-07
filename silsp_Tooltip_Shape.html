@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		body{
+			background-color: lightblue;
+		}
+
+		div#flex, div#flex_1, div#flex_2{
+			display: flex;
+		}
+
+		div#div1{
+			width: 0px;
+			height: 0px;
+			border: 20px solid #000;
+			border-top-color: orange;
+			border-bottom-color: dodgerblue;                                                                      
+			
+			border-bottom: none;
+			border-left-color: #fff;
+			border-right-color: #fff;		
+		}
+
+		div#div2{
+			width: 0px;
+			height: 0px;
+			border: 20px solid #000;
+			border-top-color: orange;
+			border-bottom-color: dodgerblue;
+			
+			border-right: none;
+			border-top-color: #fff;
+			border-bottom-color: #fff;		
+		}
+
+		div#div3{
+			width: 0px;
+			height: 0px;
+			border: 20px solid #000;
+			border-top-color: orange;
+			border-bottom-color: dodgerblue;
+			
+			border-top: none;
+			border-left-color: #fff;
+			border-right-color: #fff;		
+		}
+
+		div#div4{
+			width: 0px;
+			height: 0px;
+			border: 20px solid #000;
+			border-top-color: orange;
+			border-bottom-color: dodgerblue;
+			
+			border-left: none;
+			border-top-color: transparent;
+			border-bottom-color: transparent;		
+		}
+		
+		div#div5{
+			width: 0px;
+			height: 0px;
+			border: 20px solid #000;
+			border-color: #fff;		
+			border-top-color: #f00;
+		}
+
+		div#div6{
+			width: 0px;
+			height: 0px;
+			border: 20px solid #000;
+			border-color: #fff;		
+			border-left-color: #f00;
+		}
+
+		div#div7{
+			width: 0px;
+			height: 0px;
+			border: 20px solid #000;
+			border-color: transparent;		
+			border-bottom-color: #f00;
+		}
+
+		div#div8{
+			width: 0px;
+			height: 0px;
+			border: 20px solid #000;
+			border-color: transparent;		
+			border-right-color: #f00;
+		}
+		
+		div#flex_2{
+			margin-top: 20px;
+		}
+
+		div#div9{
+			width: 0px;
+			height: 0px;
+			border: 20px solid #000;
+			border-color: transparent;		
+			border-right-color: green;
+
+			transform: rotate(45deg);	/* deg=degree 각도 */
+		}
+	
+		div#div10{
+			width: 0px;
+			height: 0px;
+			border: 20px solid #000;
+			border-color: transparent;		
+			border-right-color: hotpink;
+
+			transform: rotate(-10deg);	/* deg=degree 각도 */
+		}	
+
+	</style>
+</head>
+<body>
+	<div id="flex">
+		<div id="div1"></div>
+		<br>
+		<div id="div2"></div>
+		<br>
+		<div id="div3"></div>
+		<br>
+		<div id="div4"></div>
+	</div>
+	<br>
+
+	<div id="flex_1">
+		<div id="div5"></div>
+		<br>
+		<div id="div6"></div>
+		<br>
+		<div id="div7"></div>
+		<br>
+		<div id="div8"></div>
+	</div>
+
+	<div id="flex_2">
+		<br>
+		<div id="div9"></div>
+		<br>
+		<div id="div10"></div>
+	</div>
+</body>
+</html>
+
+
+<!-- 
+
+[테두리선을 이용한 삼각형 만들기]
+	=> 툴팁 디자인(Tooltip)
+
+	● 테두리선이 방향을 갖는다.
+	방향의 구역이 경계선에서 45도 기준으로 나뉘어지므로 삼각형을 만들 수 있다.
+
+-->
